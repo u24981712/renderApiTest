@@ -5,8 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-  origin: "https://renderapitest-6o04.onrender.com",
-  
+  origin: "https://frontend-testing-rouge.vercel.app"  
 }));
 app.use(express.json());
 
